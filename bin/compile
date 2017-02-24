@@ -1,0 +1,4 @@
+#!/bin/sh
+
+echo "-----> REVISION=${SOURCE_VERSION}"
+echo $SOURCE_VERSION > $1/REVISION
